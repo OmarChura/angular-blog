@@ -1,0 +1,19 @@
+
+.container__menu-bar{
+}
+
+.container__menu-bar > ul{
+
+
+  /*css para deixar os link em linea*/
+  display: flex;
+  flex-direction: row;
+}
+
+
+.container__menu-bar > ul > li{
+  margin-right: 20px;
+
+  /*remove a bolinha padrao da lista*/
+  list-style: none;
+}
