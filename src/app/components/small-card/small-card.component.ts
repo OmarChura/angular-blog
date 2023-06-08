@@ -11,7 +11,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string = "https://picsum.photos/seed/picsum/200/300"
   @Input()
   cardTitle:string = "Saiu a nova versão do angular"
-
+  @Input()
+  Id:string = "0"
   constructor() { }
 
   ngOnInit(): void {
